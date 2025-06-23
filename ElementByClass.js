@@ -1,5 +1,5 @@
 const fruit = document.getElementsByClassName("fruit");
 fruit[2].style.backgroundColor = "yellow";
-for (let i = 0; i < fruit.length; i++){
-    fruit[i].style.fontWeight = "bold";
+for (let v of fruit){
+    v.style.fontWeight = "bold";
 }
